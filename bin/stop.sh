@@ -1,5 +1,5 @@
 #!/bin/bash
-proc_name="webserivce-1.0-SNAPSHOT.jar"
+proc_name="web-1.0.jar"
 proc_id=`ps -ef|grep -i ${proc_name}|grep -v "grep"|awk '{print $2}'`
 if [[ -z $proc_id ]];then
     echo "The task is not running ! "

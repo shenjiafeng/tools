@@ -1,2 +1,4 @@
-java -jar webserivce-1.0-SNAPSHOT.jar & 
+#!/bin/bash
+
+java -jar web-1.0.jar &
 
